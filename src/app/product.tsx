@@ -47,7 +47,7 @@ export default function Product() {
             <div id="product-1" className="shadow-xl rounded-xl p-3 w-96 ">
             <Image src="/keyboard/barang9.jpg" className="rounded-xl w-full" style={{objectFit: 'cover'}} width={540} height={540} alt=""/>
             <div className="px-4 py-5 grid grid-cols-7">
-                <h3 className="text-xl font-medium col-span-4">Black Orange</h3>
+                <h3 className="text-xl font-medium col-span-4">Monster Blue</h3>
                 <p className="text-xl col-span-3 text-end">$199.00</p>
                 <p className="col-span-7 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, alias!</p>
             </div>
@@ -56,7 +56,7 @@ export default function Product() {
             <div id="product-1" className="shadow-xl rounded-xl p-3 w-96 ">
             <Image src="/keyboard/barang5.jpg" className="rounded-xl w-full" style={{objectFit: 'cover'}} width={540} height={540} alt=""/>
             <div className="px-4 py-5 grid grid-cols-7">
-                <h3 className="text-xl font-medium col-span-4">Black Orange</h3>
+                <h3 className="text-xl font-medium col-span-4">Numb White</h3>
                 <p className="text-xl col-span-3 text-end">$199.00</p>
                 <p className="col-span-7 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, alias!</p>
             </div>
@@ -65,7 +65,7 @@ export default function Product() {
             <div id="product-1" className="shadow-xl rounded-xl p-3 w-96 ">
             <Image src="/keyboard/barang6.jpg" className="rounded-xl w-full" style={{objectFit: 'cover'}} width={540} height={540} alt=""/>
             <div className="px-4 py-5 grid grid-cols-7">
-                <h3 className="text-xl font-medium col-span-4">Black Orange</h3>
+                <h3 className="text-xl font-medium col-span-4">Numb Purple</h3>
                 <p className="text-xl col-span-3 text-end">$199.00</p>
                 <p className="col-span-7 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, alias!</p>
             </div>
@@ -74,7 +74,7 @@ export default function Product() {
             <div id="product-1" className="shadow-xl rounded-xl p-3 w-96 ">
             <Image src="/keyboard/barang7.jpg" className="rounded-xl w-full" style={{objectFit: 'cover'}} width={540} height={540} alt=""/>
             <div className="px-4 py-5 grid grid-cols-7">
-                <h3 className="text-xl font-medium col-span-4">Black Orange</h3>
+                <h3 className="text-xl font-medium col-span-4">Numb Orange</h3>
                 <p className="text-xl col-span-3 text-end">$199.00</p>
                 <p className="col-span-7 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, alias!</p>
             </div>
@@ -83,7 +83,7 @@ export default function Product() {
             <div id="product-1" className="shadow-xl rounded-xl p-3 w-96 ">
             <Image src="/keyboard/barang8.jpg" className="rounded-xl w-full" style={{objectFit: 'cover'}} width={540} height={540} alt=""/>
             <div className="px-4 py-5 grid grid-cols-7">
-                <h3 className="text-xl font-medium col-span-4">Black Orange</h3>
+                <h3 className="text-xl font-medium col-span-4">Numb Gray</h3>
                 <p className="text-xl col-span-3 text-end">$199.00</p>
                 <p className="col-span-7 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, alias!</p>
             </div>
