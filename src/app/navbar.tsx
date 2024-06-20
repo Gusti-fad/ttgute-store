@@ -2,7 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 export default function Navbar() {
     return (
-        <nav className="navbar bg-white w-full fixed z-10 flex justify-between py-5 px-48">
+        <nav className="navbar bg-white w-full fixed z-10 hidden md:flex justify-between py-5 px-48">
             <Link href="/">
                 <p className="poppins text-2xl font-semibold text-[#130f40]">TTGUTE STORE</p>
             </Link>
