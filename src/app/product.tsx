@@ -8,7 +8,7 @@ export default function Product() {
             <h3 className="font-semibold text-4xl text-center">Our <span className="text-[#e67e22]">Products</span></h3>
         </div>
         <div id="product-container" className="flex flex-wrap justify-center gap-4 px-8 md:px-40 md:py-12">
-            <div id="product-1" className="shadow-xl group  rounded-xl p-3 w-96">
+            <div id="product-1" className="shadow-xl group cursor-pointer rounded-xl p-3 w-96">
                 <div className="w-full rounded-xl overflow-hidden">
                     <Image src="/keyboard/barang1.jpg" className="rounded-xl w-full group-hover:scale-110 duration-200" style={{objectFit: 'cover'}} width={540} height={540} alt=""/>
                 </div>
@@ -19,7 +19,7 @@ export default function Product() {
             </div>
             <button className="w-full py-1 rounded-lg bg-gray-200 mb-3 hover:bg-gray-300 duration-200">Add to Cart</button>
             </div>
-            <div id="product-1" className="shadow-xl rounded-xl p-3 w-96 group">
+            <div id="product-1" className="shadow-xl rounded-xl p-3 w-96 group cursor-pointer">
             <div className="w-full rounded-xl overflow-hidden">
                 <Image src="/keyboard/barang2.jpg" className="rounded-xl w-full group-hover:scale-110 duration-200" style={{objectFit: 'cover'}} width={540} height={540} alt=""/>
             </div>
@@ -30,7 +30,7 @@ export default function Product() {
             </div>
             <button className="w-full py-1 rounded-lg bg-gray-200 mb-3 hover:bg-gray-300 duration-200">Add to Cart</button>
             </div>
-            <div id="product-1" className="shadow-xl rounded-xl p-3 w-96 group">
+            <div id="product-1" className="shadow-xl rounded-xl p-3 w-96 group cursor-pointer">
             <div className="w-full rounded-xl overflow-hidden">
                 <Image src="/keyboard/barang3.jpg" className="rounded-xl w-full group-hover:scale-110 duration-200" style={{objectFit: 'cover'}} width={540} height={540} alt=""/>
             </div>
@@ -41,7 +41,7 @@ export default function Product() {
             </div>
             <button className="w-full py-1 rounded-lg bg-gray-200 mb-3 hover:bg-gray-300 duration-200">Add to Cart</button>
             </div>
-            <div id="product-1" className="shadow-xl rounded-xl p-3 w-96 group">
+            <div id="product-1" className="shadow-xl rounded-xl p-3 w-96 group cursor-pointer">
             <div className="w-full rounded-xl overflow-hidden">
                 <Image src="/keyboard/barang4.jpg" className="rounded-xl w-full group-hover:scale-110 duration-200" style={{objectFit: 'cover'}} width={540} height={540} alt=""/>
             </div>
@@ -52,7 +52,7 @@ export default function Product() {
             </div>
             <button className="w-full py-1 rounded-lg bg-gray-200 mb-3 hover:bg-gray-300 duration-200">Add to Cart</button>
             </div>
-            <div id="product-1" className="shadow-xl rounded-xl p-3 w-96 group">
+            <div id="product-1" className="shadow-xl rounded-xl p-3 w-96 group cursor-pointer">
             <div className="w-full rounded-xl overflow-hidden">
                 <Image src="/keyboard/barang9.jpg" className="rounded-xl w-full group-hover:scale-110 duration-200" style={{objectFit: 'cover'}} width={540} height={540} alt=""/>
             </div>
@@ -63,7 +63,7 @@ export default function Product() {
             </div>
             <button className="w-full py-1 rounded-lg bg-gray-200 mb-3 hover:bg-gray-300 duration-200">Add to Cart</button>
             </div>
-            <div id="product-1" className="shadow-xl rounded-xl p-3 w-96 group">
+            <div id="product-1" className="shadow-xl rounded-xl p-3 w-96 group cursor-pointer">
             <div className="w-full rounded-xl overflow-hidden">
                 <Image src="/keyboard/barang5.jpg" className="rounded-xl w-full group-hover:scale-110 duration-200" style={{objectFit: 'cover'}} width={540} height={540} alt=""/>
             </div>
@@ -74,7 +74,7 @@ export default function Product() {
             </div>
             <button className="w-full py-1 rounded-lg bg-gray-200 mb-3 hover:bg-gray-300 duration-200">Add to Cart</button>
             </div>
-            <div id="product-1" className="shadow-xl rounded-xl p-3 w-96 group">
+            <div id="product-1" className="shadow-xl rounded-xl p-3 w-96 group cursor-pointer">
             <div className="w-full rounded-xl overflow-hidden">
                 <Image src="/keyboard/barang6.jpg" className="rounded-xl w-full group-hover:scale-110 duration-200" style={{objectFit: 'cover'}} width={540} height={540} alt=""/>
             </div>
@@ -85,7 +85,7 @@ export default function Product() {
             </div>
             <button className="w-full py-1 rounded-lg bg-gray-200 mb-3 hover:bg-gray-300 duration-200">Add to Cart</button>
             </div>
-            <div id="product-1" className="shadow-xl rounded-xl p-3 w-96 group">
+            <div id="product-1" className="shadow-xl rounded-xl p-3 w-96 group cursor-pointer">
             <div className="w-full rounded-xl overflow-hidden">
                 <Image src="/keyboard/barang7.jpg" className="rounded-xl w-full group-hover:scale-110 duration-200" style={{objectFit: 'cover'}} width={540} height={540} alt=""/>
             </div>
@@ -96,7 +96,7 @@ export default function Product() {
             </div>
             <button className="w-full py-1 rounded-lg bg-gray-200 mb-3 hover:bg-gray-300 duration-200">Add to Cart</button>
             </div>
-            <div id="product-1" className="shadow-xl rounded-xl p-3 w-96 group">
+            <div id="product-1" className="shadow-xl rounded-xl p-3 w-96 group cursor-pointer">
             <div className="w-full rounded-xl overflow-hidden">
                 <Image src="/keyboard/barang8.jpg" className="rounded-xl w-full group-hover:scale-110 duration-200" style={{objectFit: 'cover'}} width={540} height={540} alt=""/>
             </div>
