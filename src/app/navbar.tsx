@@ -17,10 +17,10 @@ export default function Navbar() {
                         <li className="mr-5"><a href="#bestseller1">Best Seller</a></li>
                     {/* </Link>
                     <Link className="mr-5" href="#bestseller2"> */}
-                        <li className="mr-5"><a href="#bestseller2">Product</a></li>
+                        <li className="mr-5"><a href="#product">Product</a></li>
                     {/* </Link>
                     <Link className="mr-5" href="/contact"> */}
-                        <li>Contact</li>
+                        <li><a href="#contact">Contact</a></li>
                     {/* </Link> */}
             </ul>
             <div className="flex">
