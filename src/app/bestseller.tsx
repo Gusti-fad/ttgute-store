@@ -30,7 +30,7 @@ export default function About() {
                 <button className="md:px-7 md:py-2 px-5 py-1 border-2 mt-2 border-[#130f40] rounded-r-full rounded-bl-full text-[#130f40]">Buy Now</button>
                 </Link>
             </div>
-            <div className="w-[48%]">
+            <div className="w-[48%] flex justify-end">
                 <Image src="/keyboard/glorius.jpg" width={1200} height={960} alt=""/>
             </div>
         </section>
