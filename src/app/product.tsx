@@ -10,7 +10,7 @@ export default function Product() {
         AOS.init();
     })
     return (
-    <section id="product">
+    <section id="product" className="pt-10 md:pt-0">
         <div className="mb-8">
             <h3 className="font-semibold text-4xl text-center" data-aos="fade-up" data-aos-duration="500">Our <span className="text-[#e67e22]">Products</span></h3>
         </div>
