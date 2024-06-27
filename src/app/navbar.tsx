@@ -1,5 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
+import Cart from "../../public/svgs/Cart"
+import Profile from "../../public/svgs/Profile"
 export default function Navbar() {
     return (
         <nav className="navbar bg-white w-full fixed z-10 hidden md:flex justify-between py-5 px-48">
@@ -24,8 +26,8 @@ export default function Navbar() {
                     {/* </Link> */}
             </ul>
             <div className="flex">
-            <Image className="mr-2" src="/home/cart.svg" alt="" width={35} height={35} />
-            <Image src="/home/profile.svg" alt="" width={30} height={30} />
+                <Cart className="h-9 w-9 "/>
+                <Profile  className="h-9 w-9" />
             </div>
         </nav>);
 }
