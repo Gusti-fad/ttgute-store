@@ -9,6 +9,7 @@ import Contact from "./contact";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import Footer from "./footer";
 
 export default function Home() {
   useEffect(() => {
@@ -29,6 +30,7 @@ export default function Home() {
     <Bestseller></Bestseller>
     <Product></Product>
     <Contact></Contact>
+    <Footer></Footer>
     </div>
   );
 }
