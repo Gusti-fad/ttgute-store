@@ -12,7 +12,7 @@ export default function Product() {
     return (
     <section id="product">
         <div className="mb-8">
-            <h3 className="font-semibold text-4xl text-center">Our <span className="text-[#e67e22]">Products</span></h3>
+            <h3 className="font-semibold text-4xl text-center" data-aos="fade-up" data-aos-duration="500">Our <span className="text-[#e67e22]">Products</span></h3>
         </div>
         <div id="product-container" className="flex flex-wrap justify-center gap-4 px-8 md:px-40 md:py-12">
             <div id="product-1" className="shadow-xl group cursor-pointer rounded-xl p-3 w-96" data-aos="fade-up" data-aos-duration="500" data-aos-anchor="#product-container">

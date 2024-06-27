@@ -15,7 +15,7 @@ export default function Home() {
     AOS.init();
 })
   return (
-    <div className="poppins">
+    <div className="poppins overflow-x-hidden">
     <section id="home" className="md:py-16 md:px-56 leading-normal min-h-[100vh] justify-center md:justify-end flex items-center relative" style={{backgroundImage: `url(${Bg.src})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center'}}>
         <div className="">
           <h3 data-aos="fade-up" data-aos-duration="500" className="poppins font-semibold text-white text-3xl text-center md:text-start md:text-6xl leading-normal md:leading-normal"><span className="text-[#e67e22]">Hi </span>Welcome To <br /> TTGUTE STORE</h3>
