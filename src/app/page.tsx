@@ -4,6 +4,7 @@ import Link from "next/link";
 import About from "./about";
 import Bestseller from "./bestseller";
 import Product from "./product";
+import Contact from "./contact";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
     <About></About>
     <Bestseller></Bestseller>
     <Product></Product>
+    <Contact></Contact>
     </div>
   );
 }
