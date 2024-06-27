@@ -4,9 +4,14 @@ import Image from "next/image"
 import Cart from "../../public/svgs/Cart"
 import Profile from "../../public/svgs/Profile"
 import Burger from "../../public/svgs/Burger"
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 export default function Navbar() {
+    useEffect(() => {
+        AOS.init();
+    })
     return (
         <div className="w-full navbar bg-white flex justify-center fixed z-10 py-5 drop-shadow-lg" data-aos="fade-down" data-aos-duration="500" data-aos-anchor="#about">
             <nav className="max-w-[1200px] w-full flex justify-between px-3">
