@@ -36,9 +36,9 @@ export default function Navbar() {
                         {/* </Link> */}
                 </ul>
                 <div className="flex">
-                    <Burger className="h-10 w-10 mr-2 flex items-center justify-center hover:text-orange-400 duration-300 md:hidden"/>
-                    <Cart className="h-10 w-10 mr-2 hover:text-orange-400 duration-300"/>
-                    <Profile  className="h-9 w-9 hover:text-orange-400 duration-300" />
+                    <Burger className="h-10 w-10 mr-2 flex items-center justify-center hover:text-orange-400 duration-300 md:hidden cursor-pointer"/>
+                    <Cart className="h-10 w-10 mr-2 hover:text-orange-400 duration-300 cursor-pointer"/>
+                    <Profile  className="h-9 w-9 hover:text-orange-400 duration-300 cursor-pointer" />
                 </div>
             </nav>
         </div>);
