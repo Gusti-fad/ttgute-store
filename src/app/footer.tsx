@@ -4,12 +4,12 @@ import Image from "next/image"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
-import Discord from '../component/svgs/Discord';
-import Instagram from '../component/svgs/Instagram';
-import Facebook from '../component/svgs/Facebook';
-import Twitter from '../component/svgs/Twitter';
-import Whatsapp from '../component/svgs/Whatsapp';
-import Bg from '../component/keyboard/footer_background.jpg';
+import Discord from '../../public/svgs/Discord';
+import Instagram from '../../public/svgs/Instagram';
+import Facebook from '../../public/svgs/Facebook';
+import Twitter from '../../public/svgs/Twitter';
+import Whatsapp from '../../public/svgs/Whatsapp';
+import Bg from '../../public/keyboard/footer_background.jpg';
 
 
 export default function Footer() {

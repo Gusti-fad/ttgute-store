@@ -2,14 +2,14 @@
 import Image from "next/image";
 import Bg from '/public/keyboard/home6.jpg';
 import Link from "next/link";
-import About from "./structure/about";
-import Bestseller from "./structure/bestseller";
-import Product from "./structure/product";
-import Contact from "./structure/contact";
+import About from "./about";
+import Bestseller from "./bestseller";
+import Product from "./product";
+import Contact from "./contact";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
-import Footer from "./structure/footer";
+import Footer from "./footer";
 
 export default function Home() {
   useEffect(() => {
