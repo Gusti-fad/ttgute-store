@@ -4,11 +4,11 @@ import Image from "next/image"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
-import Discord from '../../../public/svgs/Discord';
-import Instagram from '../../../public/svgs/Instagram';
-import Facebook from '../../../public/svgs/Facebook';
-import Twitter from '../../../public/svgs/Twitter';
-import Whatsapp from '../../../public/svgs/Whatsapp';
+import Discord from '../../public/svgs/Discord';
+import Instagram from '../../public/svgs/Instagram';
+import Facebook from '../../public/svgs/Facebook';
+import Twitter from '../../public/svgs/Twitter';
+import Whatsapp from '../../public/svgs/Whatsapp';
 import Bg from '../../public/keyboard/footer_background.jpg';
 
 
