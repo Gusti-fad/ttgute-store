@@ -1,9 +1,9 @@
 "use client"
 import Link from "next/link"
 import Image from "next/image"
-import Cart from "../../public/svgs/Cart"
-import Profile from "../../public/svgs/Profile"
-import Burger from "../../public/svgs/Burger"
+import Cart from "../component/svgs/Cart"
+import Profile from "../component/svgs/Profile"
+import Burger from "../component/svgs/Burger"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
