@@ -13,7 +13,7 @@ export default function Navbar() {
         AOS.init();
     })
     return (
-        <div className="w-full navbar bg-white flex justify-center fixed z-10 py-5 drop-shadow-lg" data-aos="fade-down" data-aos-duration="500" data-aos-anchor="#about">
+        <div className="w-full navbar bg-gray-100 flex justify-center fixed z-10 py-5 drop-shadow-lg" data-aos="fade-down" data-aos-duration="500" data-aos-anchor="#about">
             <nav className="max-w-[1200px] w-full flex justify-between px-3">
                 <Link href="/">
                     <p className="poppins text-2xl font-semibold text-[#130f40] flex items-center h-full">TTGUTE STORE</p>
